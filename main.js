@@ -33,7 +33,7 @@ function setBgGreet() {
     } else {
         document.body.style.backgroundImage = "url('./img/night.jpg')";
         greeting.textContent = 'Добрый Вечер, ';
-        document.body.style.color = "#000";
+        document.body.style.color = "#fff";
     }
 }
 
