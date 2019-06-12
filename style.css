@@ -18,13 +18,23 @@ body {
     font-size: 8rem;
 }
 
-h1 {
+.greeting {
     margin-bottom: 3rem;
+    font-size: 1.5rem;
+    text-align: center;
 }
 
-h2 {
-    margin-bottom: 0.5rem;
+.greeting h1 {
+    padding: 0.3rem;
+}
+
+.focus {
     opacity: 0.6;
+    text-align: center;
+}
+
+.focus h2 {
+    padding: 0.3rem;
 }
 
 @media(max-width: 700px) {
